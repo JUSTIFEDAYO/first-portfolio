@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 body {
   margin: 0;
   padding: 0;
   max-height: 100vh;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  color: aliceblue;
+  
 }
 nav {
   box-shadow: 2px 2px rgba(199, 5, 5, 0.2);
@@ -48,7 +51,7 @@ nav {
   max-width: 12000px;
   display: flex;
   padding: 50px;
-  margin:  auto;
+  margin: auto;
   align-items: center;
   justify-content: space-between;
   background-color: black;
@@ -66,7 +69,7 @@ nav {
   padding: 10px 20px;
   background-color: rgb(20, 124, 142);
   font-size: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .home-img img {
   width: 220px;
@@ -87,7 +90,6 @@ absolute done
 sticky
 */
 
-
 /* overflow */
 /* overflow-x  left & right*/
 /* overflow-y  top & bottom*/
@@ -99,13 +101,13 @@ scroll
 auto
 
 */
-.container{
+.container {
   margin: 40px;
   width: 150px;
   height: 150px;
-  border: 1px solid black;
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 10px;
-  background-color: red;
+  background-color: rgb(216, 56, 56);
   overflow: auto;
 }
 
@@ -115,10 +117,65 @@ auto
   right: 5px
 } */
 
-.height-element{
+.height-element {
   height: 1000px;
 }
-.test-index img{
+.test-index img {
   position: absolute;
   z-index: 0;
+}
+.prat {
+  background-color: blue;
+  padding: 20px;
+  max-width: 100px;
+  max-height: 100px;
+  position: relative;
+  bottom: 10px;
+  left: 50px;
+}
+.about {
+  background-color: black;
+  color: aliceblue;
+}
+.about-menu {
+  display: flex;
+  width: 100%;
+}
+.about-img img {
+  width: 220px;
+  height: auto;
+  padding: 20px;
+  margin: 50px;
+  border: 5px solid rgba(235, 182, 8, 0.801);
+  border-radius: 70px;
+  outline: 5px solid rgb(96, 88, 88);
+  background-color: rgb(15, 15, 14);
+}
+.about-txt{
+  padding: 30px;
+}
+.about-item{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 5px solid rgb(234, 158, 4);
+  outline: 5px solid rgb(96, 88, 88);
+}
+.Skill{
+  background-color: black;
+  color: aliceblue;
+  padding: 20px;
+}
+.skill-menu{
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+.skil-item{
+  background-color: gray;
+  padding: 20px;
+}
+.skil-item h2{
+  text-align: center;
 }
