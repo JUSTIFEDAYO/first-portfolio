@@ -6,7 +6,6 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: black;
   color: aliceblue;
-  
 }
 nav {
   box-shadow: 2px 2px rgba(199, 5, 5, 0.2);
@@ -151,31 +150,66 @@ auto
   outline: 5px solid rgb(96, 88, 88);
   background-color: rgb(15, 15, 14);
 }
-.about-txt{
+.about-txt {
   padding: 30px;
 }
-.about-item{
+.about-item {
   display: flex;
   justify-content: space-between;
   padding: 20px;
   border: 5px solid rgb(234, 158, 4);
   outline: 5px solid rgb(96, 88, 88);
 }
-.Skill{
+.Skill {
   background-color: black;
   color: aliceblue;
   padding: 20px;
 }
-.skill-menu{
+.Skill h1 {
+  padding: 10px;
+  text-align: center;
+}
+.skill-menu {
   display: flex;
   padding: 20px;
   align-items: center;
   justify-content: space-around;
 }
-.skil-item{
-  background-color: gray;
+.skil-item {
+ 
+  padding: 20px;
+  max-width: 150px;
+  max-height: 100px;
+  overflow: auto;
+  background: linear-gradient(180deg, #16169d 0%, #20262e 100%);
+  border: 5px solid rgba(92, 86, 203, 0.801);
+}
+.skil-item h2 {
+  text-align: center;
+}
+.service {
+  width: 100%;
   padding: 20px;
 }
-.skil-item h2{
+.service-h {
   text-align: center;
+}
+.service-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.service-item {
+   padding: 20px;
+  max-width: 150px;
+  max-height: 100px;
+  overflow: auto;
+  background: linear-gradient(180deg, #16169d 0%, #20262e 100%);
+  border: 5px solid rgba(92, 86, 203, 0.801);
+}
+.contact-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
 }
